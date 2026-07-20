@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-image:
+    Linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/copy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+  font-family: sans-serif;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(233, 219, 219, 0.4);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*  FORM INPUT------------- */
+
+form input {
+  padding: 10px 8px 8px 14px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  display: block;
+}
+
+form input::placeholder {
+  color: rgb(146, 144, 144);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-box {
+  align-items: center;
+  display: flex;
+  color: grey;
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  padding-left: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(248, 245, 241);
+  cursor: pointer;
+}
+
+.btn-1 {
+  background-color: rgb(12, 153, 247);
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 227px;
+
+  cursor: pointer;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  font-size: large;
+  transition: all 0.9s ease;
+}
+
+.btn:hover {
+  background-color: rgba(252, 154, 8, 0.904);
+  transform: scale(5.05s);
+}
+
+p {
+  cursor: pointer;
+}
+
+/*-----------TWO SOCIAL BUTTON  */
+
+.btn-2 {
+  background-color: rgb(79, 79, 241);
+  cursor: pointer;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  transition: all 0.9s ease;
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 110px;
+}
+
+.btn-3 {
+  background-color: rgb(240, 9, 117);
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  color: white;
+  font-weight: bold;
+  height: 35px;
+  width: 110px;
+  transition: all 0.9s ease;
+}
+
+.highlight {
+  color: blue;
+  font-family: arial;
+  font-weight: 100;
+}
+
+.singn-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.singn-link:hover {
+  text-decoration: underline;
+}
